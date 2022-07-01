@@ -13,12 +13,12 @@ def intro(knowledge, selection):
     print_pause("Suddenly you get a text message from an unrecognized phone number.\n")
     print_pause("It reads: \"This is your future self.\"\n")
     print_pause("\"I don't have much time to explain.\"\n")
-    print_pause("\"But your world is about to go through a financial revolution.\"\n")
-    print_pause("\"Your legacy system is pending collapse, and there are only two options.\"\n")
+    print_pause("\"But the world is about to go through a financial revolution.\"\n")
+    print_pause("\"The legacy system is pending collapse, and there are only two options.\"\n")
     print_pause("\"You can either take the orange pill "
                 "or you can take the fiat pill. Which will it be?\"\n")
 
-def fiatPill(knowledge, selection):
+def fiat_pill(knowledge, selection):
     if "fiat_knowledge" in knowledge:
         print_pause("You think, \'Wait, this looks familiar.\'\n")
         print_pause("\'I should probably take the orange pill instead.\'\n")
@@ -35,7 +35,7 @@ def fiatPill(knowledge, selection):
         knowledge.append("fiat_knowledge")
     living_room(knowledge, selection)
 
-def orangePill(knowledge, selection):
+def orange_pill(knowledge, selection):
     print_pause("You take the orange pill.\n")
     print_pause("Somewhere, " + selection + " stares off into the distance "
                 "because he knows it's too late.\n")
@@ -48,7 +48,7 @@ def orangePill(knowledge, selection):
     while True:
         decision1 = input("Would you like to buy your first $20 worth of"
                             "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
-        if decision1 == "1":
+        if decision2 == "1":
             print_pause("You succesffully purchased $20 worth of "
                         "Bitcoin on Coinbase Pro, paying very little in fees.\n")
             print_pause("Congratulations! This is the first step in securing "
@@ -64,3 +64,15 @@ def orangePill(knowledge, selection):
                         "use Coinbase Pro next time instead.\'\n")
             break
                         
+def living_room(knowledge, selection):
+    print_pause("Please enter 1 to take the orange pill.\n")
+    print_pause("Pleas enter 2 to take the fiat pill.\n")
+    while True:
+        decision1 = input("What would you like to do?\n")
+        if decision1 == "1":
+            orange_pill(knowledge, selection)
+            break
+        else decision1 == "2":
+            fiat_pill(knowledge, selection)
+            break
+
