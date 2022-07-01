@@ -74,8 +74,8 @@ def orange_pill(knowledge, selection):
                         "use Coinbase Pro next time instead.\'\n")
             break
         else:
-            decision2 = input("\nWould you like to buy your first $20 worth of "
-                              "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
+            decision2 = input("\nWould you like to buy your first $20 worth "
+                              "of Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
 
 
 def living_room(knowledge, selection):
