@@ -23,15 +23,15 @@ def fiat_pill(knowledge, selection):
         print_pause("You think, \'Wait, this looks familiar.\'")
         print_pause("\'I should probably take the orange pill instead.\'\n")
     else:
-        print_pause("You take the fiat pill.\n")
+        print_pause("\nYou take the fiat pill.\n")
         print_pause("You have a vision of the Federal Reserve "
-                    "being created in 1913.\n")
+                    "being created in 1913.")
         print_pause("Visions of all the wars which took place "
-                    "during the century thereafter.\n")
+                    "during the century thereafter.")
         print_pause("Visions of the Great Depression "
-                    "and Great Financial Crisis of 2008, and see a bleak future ahead.\n")
+                    "and Great Financial Crisis of 2008, and see a bleak future ahead.")
         print_pause("You think, \'That was pretty dark. "
-                    "I should probably take the orange pill instead.\'\n")
+                    "I should probably take the orange pill instead.\'")
         knowledge.append("fiat_knowledge")
     living_room(knowledge, selection)
 
