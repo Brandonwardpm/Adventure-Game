@@ -20,7 +20,7 @@ def intro(knowledge, selection):
 
 def fiat_pill(knowledge, selection):
     if "fiat_knowledge" in knowledge:
-        print_pause("You think, \'Wait, this looks familiar.\'")
+        print_pause("\nYou think, \'Wait, this looks familiar.\'")
         print_pause("\'I should probably take the orange pill instead.\'")
     else:
         print_pause("\nYou take the fiat pill.")
@@ -29,7 +29,7 @@ def fiat_pill(knowledge, selection):
         print_pause("Visions of all the wars which took place "
                     "during the century thereafter.")
         print_pause("Visions of the Great Depression "
-                    "and Great Financial Crisis of 2008, and see a bleak future ahead.")
+                    "and Great Financial Crisis of 2008, and you see a bleak future ahead.")
         print_pause("You think, \'That was pretty dark. "
                     "I should probably take the orange pill instead.\'")
         knowledge.append("fiat_knowledge")
