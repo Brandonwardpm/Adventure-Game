@@ -46,7 +46,7 @@ def orange_pill(knowledge, selection):
                 "by educating yourself on the miraculous feat "
                 "of engineering known as Bitcoin.")
     while True:
-        decision1 = input("Would you like to buy your first $20 worth of "
+        decision1 = input("\nWould you like to buy your first $20 worth of "
                             "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
         if decision2 == "1":
             print_pause("You succesffully purchased $20 worth of "
