@@ -20,7 +20,7 @@ def intro(knowledge, selection):
 
 def fiat_pill(knowledge, selection):
     if "fiat_knowledge" in knowledge:
-        print_pause("You think, \'Wait, this looks familiar.\'\n")
+        print_pause("You think, \'Wait, this looks familiar.\'")
         print_pause("\'I should probably take the orange pill instead.\'\n")
     else:
         print_pause("You take the fiat pill.\n")
@@ -36,7 +36,7 @@ def fiat_pill(knowledge, selection):
     living_room(knowledge, selection)
 
 def orange_pill(knowledge, selection):
-    print_pause("\nYou take the orange pill.\n")
+    print_pause("\nYou take the orange pill.")
     print_pause("Somewhere, " + selection + " stares off into the distance "
                 "because he knows it's too late.")
     print_pause("He can't steal your wealth from you "
@@ -46,7 +46,7 @@ def orange_pill(knowledge, selection):
                 "by educating yourself on the miraculous feat "
                 "of engineering known as Bitcoin.")
     while True:
-        decision1 = input("Would you like to buy your first $20 worth of"
+        decision1 = input("Would you like to buy your first $20 worth of "
                             "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
         if decision2 == "1":
             print_pause("You succesffully purchased $20 worth of "
