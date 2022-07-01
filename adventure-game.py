@@ -3,7 +3,7 @@ import time
 
 def print_pause(message):
     print(message)
-    time.sleep(2)
+    time.sleep(4)
 
 def intro(knowledge, selection):
     print_pause("You're in your living room, "
