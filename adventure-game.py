@@ -15,7 +15,7 @@ def intro(knowledge, selection):
     print_pause("\"I don't have much time to explain.\"")
     print_pause("\"But the world is about to go through a financial revolution.\"")
     print_pause("\"The legacy system is pending collapse, and there are only two options.\"")
-    print_pause("\"Either you can take the orange pill, "
+    print_pause("\"You can either take the orange pill, "
                 "or you can take the fiat pill. Which will it be?\"")
 
 def fiat_pill(knowledge, selection):
