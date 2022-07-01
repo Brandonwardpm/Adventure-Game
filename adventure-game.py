@@ -49,8 +49,8 @@ def orange_pill(knowledge, selection):
         decision2 = input("\nWould you like to buy your first $20 worth of "
                             "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
         if decision2 == "1":
-            print_pause("You succesffully purchased $20 worth of "
-                        "Bitcoin on Coinbase Pro, paying very little in fees.\n")
+            print_pause("\nYou succesffully purchased $20 worth of "
+                        "Bitcoin on Coinbase Pro, paying very little in fees.")
             print_pause("Congratulations! This is the first step in securing "
                         "your financial future.\n")
             break
@@ -88,7 +88,7 @@ def time_travel():
     elif flashback == "n":
         print_pause("\nYou have decided to live with your decision.")
         print_pause("Will it be the right one?")
-        print_pause("Only time will tell . .")
+        print_pause("Only time will tell . .\n")
     else:
         time_travel()
 
