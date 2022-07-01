@@ -21,7 +21,7 @@ def intro(knowledge, selection):
 def fiat_pill(knowledge, selection):
     if "fiat_knowledge" in knowledge:
         print_pause("You think, \'Wait, this looks familiar.\'")
-        print_pause("\'I should probably take the orange pill instead.\'\n")
+        print_pause("\'I should probably take the orange pill instead.\'")
     else:
         print_pause("\nYou take the fiat pill.")
         print_pause("You have a vision of the Federal Reserve "
