@@ -15,7 +15,7 @@ def intro(knowledge, selection):
     print_pause("\"I don't have much time to explain.\"")
     print_pause("\"But the world is about to go through a financial revolution.\"")
     print_pause("\"The legacy system is pending collapse, and there are only two options.\"")
-    print_pause("\"You can either take the orange pill "
+    print_pause("\"You can either take the orange pill, "
                 "or you can take the fiat pill. Which will it be?\"")
 
 def fiat_pill(knowledge, selection):
@@ -36,15 +36,15 @@ def fiat_pill(knowledge, selection):
     living_room(knowledge, selection)
 
 def orange_pill(knowledge, selection):
-    print_pause("You take the orange pill.\n")
+    print_pause("\nYou take the orange pill.\n")
     print_pause("Somewhere, " + selection + " stares off into the distance "
-                "because he knows it's too late.\n")
+                "because he knows it's too late.")
     print_pause("He can't steal your wealth from you "
-                "any longer.\n")
+                "any longer.")
     print_pause("You have successfully made the "
                 "decision to become orange-pilled "
                 "by educating yourself on the miraculous feat "
-                "of engineering known as Bitcoin.\n")
+                "of engineering known as Bitcoin.")
     while True:
         decision1 = input("Would you like to buy your first $20 worth of"
                             "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
