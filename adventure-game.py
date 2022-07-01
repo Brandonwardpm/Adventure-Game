@@ -76,3 +76,15 @@ def living_room(knowledge, selection):
             fiat_pill(knowledge, selection)
             break
 
+def time_travel():
+    flashback = input("Would you like to go back in time "
+                    "and make a different decision? (Y/N)\n").lower()
+    if flashback == "y":
+        print_pause("\nA bright flash of light followed by a deja vu momemnt . .\n")
+        aha_moment()
+    elif flashback == "n":
+        print_pause("\nYou have decided to live with your decision.")
+        print_pause("Will it be the right one?")
+        print_pause("Only time will tell . .")
+    else:
+        time_travel()
