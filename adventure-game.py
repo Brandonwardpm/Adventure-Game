@@ -72,7 +72,7 @@ def living_room(knowledge, selection):
         if decision1 == "1":
             orange_pill(knowledge, selection)
             break
-        else decision1 == "2":
+        elif decision1 == "2":
             fiat_pill(knowledge, selection)
             break
 
