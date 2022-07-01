@@ -57,7 +57,7 @@ def orange_pill(knowledge, selection):
                 "of engineering known as Bitcoin.")
     while True:
         decision2 = input("\nWould you like to buy your first $20 worth of "
-                        "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
+                          "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
         if decision2 == "1":
             print_pause("\nYou have succesffully purchased $20 worth of "
                         "Bitcoin on Coinbase Pro, paying very little in fees.")
@@ -75,7 +75,7 @@ def orange_pill(knowledge, selection):
             break
         else:
             decision2 = input("\nWould you like to buy your first $20 worth of "
-                                "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
+                              "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
                         
 
 def living_room(knowledge, selection):
@@ -93,7 +93,7 @@ def living_room(knowledge, selection):
 
 def time_travel():
     flashback = input("Would you like to go back in time "
-                        "and make a different decision? (Y/N)\n").lower()
+                      "and make a different decision? (Y/N)\n").lower()
     if flashback == "y":
         print_pause("\nA bright flash of light followed by a deja vu momemnt . .\n")
         aha_moment()
