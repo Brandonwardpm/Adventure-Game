@@ -111,7 +111,8 @@ def time_travel():
 
 def aha_moment():
     knowledge = []
-    selection = random.choice(["Putin", "Biden", "Xi Jinping", "Jerome Powell"])
+    selection = random.choice(["Putin", "Biden", 
+                               "Xi Jinping", "Jerome Powell"])
     intro(knowledge, selection)
     living_room(knowledge, selection)
     time_travel()
