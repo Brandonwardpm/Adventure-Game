@@ -95,4 +95,4 @@ def aha_moment():
     intro(knowledge, selection)
     living_room(knowledge, selection)
 
-
+aha_moment()
