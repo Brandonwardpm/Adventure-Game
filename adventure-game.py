@@ -6,7 +6,7 @@ def print_pause(message):
     time.sleep(4)
 
 def intro(knowledge, selection):
-    print_pause("You're in your living room, "
+    print_pause("\nYou're in your living room, "
                 "watching the news describe how high inflation has gotten in the U.S.\n")
     print_pause("Everyone knows " + selection + " is to blame. But that doesn't matter now. "
                 "The question is, what to do about it?\n")
