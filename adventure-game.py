@@ -75,12 +75,14 @@ def orange_pill(knowledge, selection):
             break
         else:
             decision2 = input("\nWould you like to buy your first $20 worth "
-                              "of Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
+                              "of Bitcoin on (1) Coinbase Pro "
+                              "or (2) FTX US?\n")
 
 
 def living_room(knowledge, selection):
     while True:
-        decision1 = input("\nPress 1 to take the orange pill. Press 2 to take the fiat pill.\n")
+        decision1 = input("\nPress 1 to take the orange pill. "
+                          "Press 2 to take the fiat pill.\n")
         if decision1 == "1":
             orange_pill(knowledge, selection)
             break
