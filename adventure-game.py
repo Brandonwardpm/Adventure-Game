@@ -39,7 +39,7 @@ def orange_pill(knowledge, selection):
     print_pause("\nYou take the orange pill.")
     print_pause("Somewhere, " + selection + " stares off into the distance "
                 "because he knows it's too late.")
-    print_pause("He can't steal your wealth from you "
+    print_pause("He can't steal your purchasing power from you "
                 "any longer.")
     print_pause("You have successfully made the "
                 "decision to become orange-pilled "
