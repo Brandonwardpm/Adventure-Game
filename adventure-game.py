@@ -11,12 +11,12 @@ def intro(knowledge, selection):
     print_pause("Everyone knows " + selection + " is to blame. But that doesn't matter now. "
                 "The question is, what to do about it?\n")
     print_pause("Suddenly you get a text message from an unrecognized phone number.\n")
-    print_pause("It reads: \"This is your future self.\"\n")
-    print_pause("\"I don't have much time to explain.\"\n")
-    print_pause("\"But the world is about to go through a financial revolution.\"\n")
-    print_pause("\"The legacy system is pending collapse, and there are only two options.\"\n")
+    print_pause("It reads: \"This is your future self.\"")
+    print_pause("\"I don't have much time to explain.\"")
+    print_pause("\"But the world is about to go through a financial revolution.\"")
+    print_pause("\"The legacy system is pending collapse, and there are only two options.\"")
     print_pause("\"You can either take the orange pill "
-                "or you can take the fiat pill. Which will it be?\"\n")
+                "or you can take the fiat pill. Which will it be?\"")
 
 def fiat_pill(knowledge, selection):
     if "fiat_knowledge" in knowledge:
