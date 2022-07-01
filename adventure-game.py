@@ -35,3 +35,32 @@ def fiatPill(knowledge, selection):
         knowledge.append("fiat_knowledge")
     living_room(knowledge, selection)
 
+def orangePill(knowledge, selection):
+    print_pause("You take the orange pill.\n")
+    print_pause("Somewhere, " + selection + " stares off into the distance "
+                "because he knows it's too late.\n")
+    print_pause("He can't steal your wealth from you "
+                "any longer.\n")
+    print_pause("You have successfully made the "
+                "decision to become orange-pilled "
+                "by educating yourself on the miraculous feat "
+                "of engineering known as Bitcoin.\n")
+    while True:
+        decision1 = input("Would you like to buy your first $20 worth of"
+                            "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
+        if decision1 == "1":
+            print_pause("You succesffully purchased $20 worth of "
+                        "Bitcoin on Coinbase Pro, paying very little in fees.\n")
+            print_pause("Congratulations! This is the first step in securing "
+                        "your financial future.\n")
+            break
+        if decision2 == "2":
+            print_pause("You succesffully purchased $20 worth of "
+                        "Bitcoin on FTX US.\n")
+            print_pause("However, you're disappointed because "
+                        "they seem to have taken a lot in fees.\n")
+            print_pause("You reason, \'I guess they have to pay for "
+                        "all of that marketing somehow. I should probably "
+                        "use Coinbase Pro next time instead.\'\n")
+            break
+                        
