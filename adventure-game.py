@@ -10,7 +10,7 @@ def intro(knowledge, selection):
                 "watching the news describe how high inflation has gotten in the U.S.\n")
     print_pause("Everyone knows " + selection + " is to blame. But that doesn't matter now. "
                 "The question is, what to do about it?\n")
-    print_pause("Suddenly you get a text message from an unrecognized phone number.\n")
+    print_pause("Suddenly, you get a text message from an unrecognized phone number.\n")
     print_pause("It reads: \"This is your future self.\"")
     print_pause("\"I don't have much time to explain.\"")
     print_pause("\"But the world is about to go through a financial revolution.\"")
@@ -68,15 +68,16 @@ def orange_pill(knowledge, selection):
                             "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
                         
 def living_room(knowledge, selection):
-    print_pause("\nPress 1 to take the orange pill, or press 2 to take the fiat pill.")
     while True:
-        decision1 = input()
+        decision1 = input("\nPress 1 to take the orange pill, or press 2 to take the fiat pill.")
         if decision1 == "1":
             orange_pill(knowledge, selection)
             break
         elif decision1 == "2":
             fiat_pill(knowledge, selection)
             break
+        else:
+            decision1 = input("\nPress 1 to take the orange pill, or press 2 to take the fiat pill.")
 
 def time_travel():
     flashback = input("Would you like to go back in time "
