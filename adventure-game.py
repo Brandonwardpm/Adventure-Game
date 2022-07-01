@@ -9,14 +9,19 @@ def print_pause(message):
 
 def intro(knowledge, selection):
     print_pause("\nYou're in your living room, "
-                "watching the news describe how high inflation has gotten in the U.S.\n")
-    print_pause("Everyone knows " + selection + " is to blame. But that doesn't matter now. "
+                "watching the news describe how high "
+                "inflation has gotten in the U.S.\n")
+    print_pause("Everyone knows " + selection + " is to blame. "
+                "But that doesn't matter now. "
                 "The question is, what to do about it?\n")
-    print_pause("Suddenly, you get a text message from an unrecognized phone number.\n")
+    print_pause("Suddenly, you get a text message from "
+                "an unrecognized phone number.\n")
     print_pause("It reads: \"This is your future self.\"")
     print_pause("\"I don't have much time to explain.\"")
-    print_pause("\"But the world is about to go through a financial revolution.\"")
-    print_pause("\"The legacy system is pending collapse, and there are only two options.\"")
+    print_pause("\"But the world is about to go through "
+                "a financial revolution.\"")
+    print_pause("\"The legacy system is pending collapse, "
+                "and there are only two options.\"")
     print_pause("\"You can either take the orange pill, "
                 "or you can take the fiat pill. Which will it be?\"")
 
