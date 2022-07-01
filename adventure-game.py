@@ -67,7 +67,7 @@ def orange_pill(knowledge, selection):
 def living_room(knowledge, selection):
     print_pause("\nPress 1 to take the orange pill, or press 2 to take the fiat pill.")
     while True:
-        decision1 = input("What would you like to do?\n")
+        decision1 = input()
         if decision1 == "1":
             orange_pill(knowledge, selection)
             break
