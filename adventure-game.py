@@ -14,7 +14,6 @@ def intro(object, selection):
     print_pause("It reads: \"This is your future self.\"\n")
     print_pause("\"I don't have much time to explain.\"\n")
     print_pause("\"But your world is going through a financial revolution.\"\n")
-    print_pause("\"Your legacy system is pending collapse, and there is only one way out\"\n")
+    print_pause("\"Your legacy system is pending collapse, and there are only two options.\"\n")
     print_pause("\"You can either take the orange pill "
-                "or reply \'STOP\' to this message and forget this ever happened.")
-
+                "or take the fiat pill. Which will it be?")
