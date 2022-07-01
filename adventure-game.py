@@ -1,9 +1,11 @@
 import random
 import time
 
+
 def print_pause(message):
     print(message)
     time.sleep(4)
+
 
 def intro(knowledge, selection):
     print_pause("\nYou're in your living room, "
@@ -17,6 +19,7 @@ def intro(knowledge, selection):
     print_pause("\"The legacy system is pending collapse, and there are only two options.\"")
     print_pause("\"You can either take the orange pill, "
                 "or you can take the fiat pill. Which will it be?\"")
+
 
 def fiat_pill(knowledge, selection):
     if "fiat_knowledge" in knowledge:
@@ -34,6 +37,7 @@ def fiat_pill(knowledge, selection):
                     "I should probably take the orange pill instead.\'")
         knowledge.append("fiat_knowledge")
     living_room(knowledge, selection)
+
 
 def orange_pill(knowledge, selection):
     print_pause("\nYou take the orange pill.")
@@ -67,6 +71,7 @@ def orange_pill(knowledge, selection):
             decision2 = input("\nWould you like to buy your first $20 worth of "
                             "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
                         
+
 def living_room(knowledge, selection):
     while True:
         decision1 = input("\nPress 1 to take the orange pill. Press 2 to take the fiat pill.\n")
@@ -78,6 +83,7 @@ def living_room(knowledge, selection):
             break
         else:
             decision1 = input("\nPress 1 to take the orange pill, or press 2 to take the fiat pill.")
+
 
 def time_travel():
     flashback = input("Would you like to go back in time "
@@ -92,11 +98,13 @@ def time_travel():
     else:
         time_travel()
 
+
 def aha_moment():
     knowledge = []
     selection = random.choice(["Putin", "Biden", "Xi Jinping", "Jerome Powell"])
     intro(knowledge, selection)
     living_room(knowledge, selection)
     time_travel()
+
 
 aha_moment()
