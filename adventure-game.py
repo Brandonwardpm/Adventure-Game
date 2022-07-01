@@ -55,7 +55,7 @@ def orange_pill(knowledge, selection):
                         "your financial future.\n")
             break
         elif decision2 == "2":
-            print_pause("\nYou succesffully purchased $20 worth of "
+            print_pause("\nYou succesfully purchased $20 worth of "
                         "Bitcoin on FTX US.")
             print_pause("However, you're disappointed because "
                         "they seem to have taken a lot in fees.")
@@ -97,5 +97,6 @@ def aha_moment():
     selection = random.choice(["Putin", "Biden", "Xi Jinping", "Jerome Powell"])
     intro(knowledge, selection)
     living_room(knowledge, selection)
+    time_travel()
 
 aha_moment()
