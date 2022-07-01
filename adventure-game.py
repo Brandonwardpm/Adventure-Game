@@ -46,7 +46,7 @@ def orange_pill(knowledge, selection):
                 "by educating yourself on the miraculous feat "
                 "of engineering known as Bitcoin.")
     while True:
-        decision1 = input("\nWould you like to buy your first $20 worth of "
+        decision2 = input("\nWould you like to buy your first $20 worth of "
                             "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
         if decision2 == "1":
             print_pause("You succesffully purchased $20 worth of "
@@ -54,7 +54,7 @@ def orange_pill(knowledge, selection):
             print_pause("Congratulations! This is the first step in securing "
                         "your financial future.\n")
             break
-        if decision2 == "2":
+        elif decision2 == "2":
             print_pause("You succesffully purchased $20 worth of "
                         "Bitcoin on FTX US.\n")
             print_pause("However, you're disappointed because "
@@ -63,6 +63,9 @@ def orange_pill(knowledge, selection):
                         "all of that marketing somehow. I should probably "
                         "use Coinbase Pro next time instead.\'\n")
             break
+        else:
+            decision2 = input("\nWould you like to buy your first $20 worth of "
+                            "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
                         
 def living_room(knowledge, selection):
     print_pause("\nPress 1 to take the orange pill, or press 2 to take the fiat pill.")
