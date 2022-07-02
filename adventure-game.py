@@ -59,13 +59,13 @@ def orange_pill(knowledge, selection):
         decision2 = input("\nWould you like to buy your first $20 worth of "
                           "Bitcoin on (1) Coinbase Pro or (2) FTX US?\n")
         if decision2 == "1":
-            print_pause("\nYou have succesffully purchased $20 worth of "
+            print_pause("\nYou have successfully purchased $20 worth of "
                         "Bitcoin on Coinbase Pro, paying very little in fees.")
             print_pause("Congratulations! This is the first step in securing "
                         "your financial future.\n")
             break
         elif decision2 == "2":
-            print_pause("\nYou have succesfully purchased $20 worth of "
+            print_pause("\nYou have successfully purchased $20 worth of "
                         "Bitcoin on FTX US.")
             print_pause("However, you're disappointed because "
                         "they seem to have taken a lot in fees.")
