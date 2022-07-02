@@ -11,7 +11,7 @@ def intro(knowledge, selection):
     print_pause("\nYou're in your living room, "
                 "watching the news describe how high "
                 "inflation has gotten in the U.S.\n")
-    print_pause("Everyone knows " + selection + " is to blame. "
+    print_pause(f"Everyone knows {selection} is to blame. "
                 "But that doesn't matter now. "
                 "The question is, what to do about it?\n")
     print_pause("Suddenly, you get a text message from "
